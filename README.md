@@ -6,7 +6,7 @@ Sistema de recomendação usando Apache Spark com MLlib. Linguagem de programaç
 ### Funcionamento do algoritmo para Big Data  
   
 * Os dados usados como input contem 3 atributos {id do usuario, id do video assistido, e a proporcao do video assistido },
-a proporcao do video assistido é o quanto o usuario assistiu daquele video e é usado com um rating.  
+a proporcao do video assistido é o quanto o usuario assistiu daquele video e é usado como se fosse um star rating.  
   
 * Através da tecnica de ALS o modelo é criado a partir do histórico dos usuários e é feito um agrupamento não supervisionado.   
   
